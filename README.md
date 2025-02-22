@@ -1,5 +1,5 @@
 ﻿# MERN-Stack-Coding-Challenge
-
+##### Loom Video link:https://www.loom.com/share/c2590eb0a7404f9abd0d3d913e1e6751?sid=bd95c5fa-fe12-458a-bcf5-c19ed63eb6c3
 
 A full-stack transaction analytics dashboard built with React.js (frontend) and Node.js, Express.js, and SQLite3 (backend). This project fetches product transaction data, stores it in SQLite, and provides a dashboard with tables, statistics, and charts (bar and pie) to analyze sales by month.
 
@@ -11,23 +11,7 @@ A full-stack transaction analytics dashboard built with React.js (frontend) and 
 - **Charts**: Bar chart for price range distribution and pie chart for category breakdown.
 - **Data Source**: Initializes data from [this JSON file](https://s3.amazonaws.com/roxiler.com/product_transaction.json).
 
-## Project Structure
-MERN-Stack-Coding-Challenge/
-├── client/              # React frontend
-│   ├── src/
-│   │   ├── App.js      # Main React component
-│   │   └── App.css     # Styles
-│   ├── package.json    # Frontend dependencies
-│   └── ...
-├── server/             # Express backend
-│   ├── db/
-│   │   └── database.js # SQLite setup
-│   ├── public/         # Built React static files (post-deployment prep)
-│   ├── server.js       # Express server and API routes
-│   ├── package.json    # Backend dependencies
-│   └── transactions.db # SQLite database file (created on init)
-├── .gitignore
-└── README.md
+
 
 
 ## Prerequisites
