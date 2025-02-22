@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/init
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/transactions
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/combined
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/all-transactions
+Content-Type: application/json
